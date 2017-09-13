@@ -2,6 +2,54 @@
 	font-family: ;
 	src: url(fonts/);
 }
+p{
+	margin-bottom: 0;
+}
 .all{
-	margin: 100px 80px;
+	margin: 15px 80px;
+}
+.retranca h4{
+	font-size: 13px;
+}
+.image-box{
+	text-align: right;
+}
+.image-box img{
+	height: 200px;
+	width: 300px;
+}
+.image-subtitle h5{
+	font-size: 10px;
+	text-align: right;
+}
+.antetitulo{
+	margin-top: -35px;
+}
+.subtitle h3{
+	margin-top: 0;
+}
+.by{
+	font-size: 12px;
+}
+.texts{
+	padding-top: 30px;
+	clear: both;
+	margin: 0;
+}
+.right-column{
+	padding-left: 10%;
+}
+.right-column .space{
+	height: 80px;
+	display: block;
+}
+.citacao{
+	text-align: right;
+	font-weight: 100;
+}
+.title-box{
+	padding: 30px;
+}
+.title-box p{
+	font-size: 13px;
 }
