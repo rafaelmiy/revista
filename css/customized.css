@@ -1,6 +1,6 @@
 @font-face{
-	font-family: ;
-	src: url(fonts/);
+	font-family: chaparral-regular;
+	src: url(fonts/ChaparralPro-Regular.otf);
 }
 p{
 	margin-bottom: 0;
@@ -36,6 +36,7 @@ p{
 	padding-top: 30px;
 	clear: both;
 	margin: 0;
+	font-family: "chaparral-regular";
 }
 .right-column{
 	padding-left: 10%;
