@@ -1,6 +1,10 @@
 @font-face{
 	font-family: chaparral-regular;
-	src: url(fonts/ChaparralPro-Regular.otf);
+	src: url("fonts/ChaparralPro-Regular.otf") format("opentype");
+}
+@font-face{
+	font-family: gotham-light;
+	src: url("fonts/Gotham-Light.otf") format("opentype");
 }
 p{
 	margin-bottom: 0;
@@ -54,4 +58,8 @@ p{
 }
 .title-box p{
 	font-size: 13px;
+}
+.gotham-light{
+	/*font-family: 'gotham-light';*/
+	font-family: 'Roboto', sans-serif;
 }
