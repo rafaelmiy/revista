@@ -1,10 +1,10 @@
 @font-face{
-	font-family: chaparral-regular;
-	src: url("fonts/ChaparralPro-Regular.otf") format("opentype");
+	font-family: chaparralregular;
+	src: url("../fonts/ChaparralPro-Regular.otf") format("opentype");
 }
 @font-face{
-	font-family: gotham-light;
-	src: url("fonts/Gotham-Light.otf") format("opentype");
+	font-family: gothamlight;
+	src: url("../fonts/Gotham-Light.otf") format("opentype");
 }
 p{
 	margin-bottom: 0;
@@ -40,7 +40,7 @@ p{
 	padding-top: 30px;
 	clear: both;
 	margin: 0;
-	font-family: "chaparral-regular";
+	font-family: "chaparralregular";
 }
 .right-column{
 	padding-left: 10%;
@@ -60,6 +60,5 @@ p{
 	font-size: 13px;
 }
 .gotham-light{
-	/*font-family: 'gotham-light';*/
-	font-family: 'Roboto', sans-serif;
+	font-family: 'gothamlight';
 }
