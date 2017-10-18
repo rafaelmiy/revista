@@ -6,12 +6,13 @@
 body {
  background-color: #fefefe;
  font-family: 'Bree Serif', serif;
+  background-color: #000;
 }
 
 h1 {
   -webkit-animation: glitch 3s steps(100) infinite;
           animation: glitch 3s steps(100) infinite;
-  color: #151515;
+  color: #fff;
   font-size: 3em;
   text-align: center;
 }
