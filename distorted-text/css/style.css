@@ -1,10 +1,10 @@
 body { 
   font-family: helvetica;
+  background-color: #000;
 }
 
 #distortMe {
 	padding: 40px;
-	background-color: #000044;
 }
 
 .distorted {
