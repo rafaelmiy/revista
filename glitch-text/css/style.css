@@ -19,7 +19,7 @@ span:first-child {
   margin-right: 20px;
 }
 
-span:last-child {
+span:first-child {
   color: black;
   background-color: black;
   animation: fadeWhite 4s forwards;
@@ -38,7 +38,7 @@ span:first-child:after {
   animation-delay: 4s;
 }
 span:first-child:before {
-  content: "FAMILY";
+  content: "FAMILT";
   position: absolute;
   left: -2px;
   top: -2px;
