@@ -1,0 +1,57 @@
+@import compass
+
+$keys: 20
+$range: 180
++keyframes(glitch)
+  @for $frame from 0 to $keys
+    #{$frame * 100 / $keys + '%'}
+      $deg: random($range) - $range * 0.5 + deg
+      +transform(skew($deg))
+        
++keyframes(noise)
+  @for $frame from 0 to 10
+    #{$frame * 10%}
+      background-position: -100 + random(200) + px -100 + random(200) + px
+
++keyframes(bar)
+  @for $frame from 0 to 10
+    #{$frame * 10%}
+      height: random(600) + 30px
+      top: random(100) * 1%
+      opacity: random(80) * 0.01
+        
+      
+.glitch
+  position: absolute
+  left: 0
+  top: 0
+  right: 0
+  bottom: 0
+  color: #fff
+  text-align: center
+  text-transform: uppercase
+  font: 15px 'Michroma', helvetica, sans-serif
+  letter-spacing: .6em
+  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=61&opacity=20)
+  +text-shadow(2px 0 1px #f6050a, -2px 0 1px #1cf2f2)
+  +animation(noise .3s infinite)
+    
+  &:before
+    content: ''
+    display: inline-block
+    vertical-align: middle
+    height: 100%
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    left: 0
+    right: 0
+    background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=61&opacity=40)
+    +animation(bar .5s infinite)
+  span
+    display: inline-block
+    vertical-align: middle
+    position: relative
+    z-index: 1
+    +animation(glitch 3s infinite alternate)
