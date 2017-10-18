@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Economica);
+body {
+  text-align: center;
+  padding: 20px;
+  background-color: #3498db;
+  font-family: 'Economica', sans-serif;
+  color: #FFF;
+  font-size: 30px;
+}
+#myVideo,
+#myCanvas {
+  border: solid 10px #FFF;
+}
+#myCanvas {
+  background-color: #000;
+}
