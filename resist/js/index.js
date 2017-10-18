@@ -54,7 +54,7 @@
       // very wide, but not very tall
       this.font = '900 ' + this.textSize + 'px "Orbitron"';
       this.context.font = this.font;
-      this.text = "RESIST";
+      this.text = "FAMILY INC";
       this.textWidth = (this.context.measureText(this.text)).width;
 
       this.fps = 60;
